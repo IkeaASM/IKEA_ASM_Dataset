@@ -22,6 +22,7 @@ The availability of a large labeled dataset is a key requirement for applying de
 
 ### Citation
 If you find this dataset useful in your research, please cite our work:
+
 [Preprint](https://arxiv.org/abs/2007.00394):
 
     @article{ben2020ikea,
@@ -31,23 +32,40 @@ If you find this dataset useful in your research, please cite our work:
       year={2020}
     }
 
+[WACV2021](): 
+Will be available upon publication. 
+
 ### Installation
-Please first download the dataset using the provided script `./scripts/download_dataset.py`.  By default it will download calibration data, indexing files data, RGB top view videos and action annotations. 
-To download the full dataset run
+Please first download the dataset using the provided links: 
+[Full dataset download](https://drive.google.com/drive/folders/1xkDp--QuUVxgl4oJjhCDb2FWNZTkYANq?usp=sharing)
+
+Alternatively, you can download only the relevant parts:  
+* [utility files](https://drive.google.com/file/d/11D7d8XBRg-CPIxMroviQEaaMhw3EaGnB/view?usp=sharing)
+* [camera parameters](https://drive.google.com/file/d/1BRq9HJQeEJFbhnCwGwY3eXe1587TybCe/view?usp=sharing)
+* [Data - RGB top view](https://drive.google.com/file/d/1CFOH-W-6N50AVA_NqHnm06GUsfpcka0L/view?usp=sharing)
+* [Data - RGB multi-view](https://drive.google.com/file/d/1eCbrIuw--16xCmI3RtBhRJ-r9K_FVkL6/view?usp=sharing)
+* [Data - Depth](https://drive.google.com/file/d/18FKRSzoUiO3EV_J2WmQyvmPGiHJcH28S/view?usp=sharing)
+* [Annotations - action](https://drive.google.com/file/d/1SwBNLViktSpk99jhh3sMXVGTMVr6tpju/view?usp=sharing)
+* [Annotations - pose](https://drive.google.com/file/d/1RE7Ya1gwogqJtJIi5WeYOH4_Cs1RuTx7/view?usp=sharing)
+* [Annotations - segmetnation and tracking](https://drive.google.com/file/d/1_jRCcLAz9zhXTnNnslBUJcu2sZjp9dVV/view?usp=sharing)
+* [Pretrained models - action](https://drive.google.com/file/d/1QksK_Uvty6pTYoGmBGWYYG3scvM_NX2X/view?usp=sharing)
+* [Pretrained models - pose](https://drive.google.com/file/d/1SMoYC-PTHr6Y2StKKT8j_-gSYcwhTHKb/view?usp=sharing)
+* [Pretrained models - segmentation and tracking](https://drive.google.com/file/d/1lLNiWU6ILFCgg104FDwWvRMV0iQaGKyp/view?usp=sharing)
+
  
-`./scripts/download_dataset.py --download_all`
-
-You can selectively download portions of the dataset (see `download_dataset.py` help).
-  
-Alternatively, you can manually download using the shared [GoogleDrive folder](https://drive.google.com/drive/folders/1xkDp--QuUVxgl4oJjhCDb2FWNZTkYANq?usp=sharing).
-
 After downloading the video data, extract the individual frames using `./toolbox/extract_frames_from_videos.py`
+For further processing of the data refer to the individual benchmarks `README.md` files.
 
-For depenencies see Requirements.txt.
+For depenencies see `requirements.txt`.
 
 ### Benchmarks
+We provide several benchmarks: 
+* Action recognition
+* Pose Estimation
+* Part segmentation and tracking
+
 Please refer to the `README.md` file in the individual benchmark dirs for further details on training, testing and evaluating the different benchmarks (action recognition, pose estiamtion, intance segmentation, and part tracking)
-Note that all pre-trained models are provided in the [GoogleDrive folder](https://drive.google.com/drive/folders/1xkDp--QuUVxgl4oJjhCDb2FWNZTkYANq?usp=sharing).
+Make sure to download the relevant pretrained models from the links abouve
 
 ### License
-Our code is released under MIT license (see license file).
+Our code is released under MIT license (see `LICENCE,txt` file).
