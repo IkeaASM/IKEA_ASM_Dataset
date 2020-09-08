@@ -221,7 +221,7 @@ def triangulate_joints(args):
                         if reprojection_error > args.reprojection_threshold:
                             joints3d[j, :] = np.zeros(4)
 
-                # Quanitfy pseudoGT error:
+                # Quantify pseudoGT error:
                 for j in range(num_joints):
                     if joints3d[j, 3] > 0.0: # Skip joints that were not triangulated
                         joint_name = get_ikea_joint_names()[j]
@@ -461,8 +461,8 @@ if __name__ == '__main__':
                         help='directory of the IKEA assembly dataset')
     parser.add_argument('--save_format', type=str, default='ikea',
                         help='output body format [ikea, body25]')
-    parser.add_argument('--input_predictions', type=str, default='keypoint_rcnn_ft',
-                        help='input 2D predictions [keypoint_rcnn_ft, openpose]')
+    parser.add_argument('--input_predictions', type=str, default='keypoint_rcnn',
+                        help='input 2D predictions [keypoint_rcnn, openpose]')
     parser.add_argument('--score_threshold', type=float, default=0.5,
                         help='score threshold for 2D joint detections to be used in triangulation')
     parser.add_argument('--reprojection_threshold', type=float, default=30.0,
