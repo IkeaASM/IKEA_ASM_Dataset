@@ -369,8 +369,6 @@ if __name__ == '__main__':
                         help='camera device ID for dataset (GT annotations for dev3 only)')
     args = parser.parse_args()
 
-    # split_dataset(args)
-    # resize_images(args, split='test') # Overwrites files
-    # resize_images(args, split='train') # Overwrites files
-    # video_to_frames(args)
-    # video_to_keyframes(args)
+    split_dataset(args)
+    resize_images(args, split='test') # Overwrites files
+    resize_images(args, split='train') # Overwrites files
