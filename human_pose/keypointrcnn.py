@@ -21,7 +21,6 @@ import warnings
 from PIL import Image
 import matplotlib.pyplot as plt
 
-sys.path.append('..')
 from ikea_pose_dataset import IKEAKeypointRCNNDataset, IKEAKeypointRCNNTestDataset, IKEAKeypointRCNNVideoTestDataset
 from joint_ids import get_ikea_joint_names, get_ikea_joint_hflip_names, get_ikea_connectivity
 
