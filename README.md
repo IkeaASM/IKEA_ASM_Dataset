@@ -68,4 +68,4 @@ Please refer to the `README.md` file in the individual benchmark dirs for furthe
 Make sure to download the relevant pretrained models from the links abouve
 
 ### License
-Our code is released under MIT license (see `LICENCE,txt` file).
+Our code is released under MIT license (see `LICENCE.txt` file).
