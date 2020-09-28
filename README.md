@@ -1,4 +1,4 @@
-# IKEA_asm_dataset-dev
+# IKEA_asm_dataset
 
 This repo contains code for the "IKEA assembly dataset". This is a dev repo, after cleanup, it will be publicly available on Github. 
 
