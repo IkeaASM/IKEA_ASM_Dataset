@@ -65,8 +65,8 @@ We provide several benchmarks:
 * Pose Estimation
 * Part segmentation and tracking
 
-Please refer to the `README.md` file in the individual benchmark dirs for further details on training, testing and evaluating the different benchmarks (action recognition, pose estiamtion, intance segmentation, and part tracking)
-Make sure to download the relevant pretrained models from the links abouve
+Please refer to the `README.md` file in the individual benchmark dirs for further details on training, testing and evaluating the different benchmarks (action recognition, pose estiamtion, intance segmentation, and part tracking).
+Make sure to download the relevant pretrained models from the links above.
 
 ### License
 Our code is released under MIT license (see `LICENCE.txt` file).
