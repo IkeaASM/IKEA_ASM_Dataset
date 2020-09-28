@@ -15,7 +15,7 @@ This repo contains code for the "IKEA assembly dataset". This is a dev repo, aft
 ### Introduction
 This is the code for processing the IKEA assembly dataset.
 
-This work will be presented in (insert name of conference/journal here). 
+This work will be presented in WACV 2021. 
 
 Abstract: 
 The availability of a large labeled dataset is a key requirement for applying deep learning methods to solve various computer vision tasks. In the context of understanding human activities, existing public datasets, while large in size, are often limited to a single RGB camera and provide only per-frame or per-clip action annotations. To enable richer analysis and understanding of human activities, we introduce IKEA ASM---a three million frame, multi-view, furniture assembly video dataset that includes depth, atomic actions, object segmentation, and human pose. Additionally, we benchmark prominent methods for video action recognition, object segmentation and human pose estimation tasks on this challenging dataset. The dataset enables the development of holistic methods, which integrate multi-modal and multi-view data to better perform on these tasks.
