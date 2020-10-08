@@ -49,6 +49,11 @@ This conversion reduces train and test time significantly.
 We provide a script for combining methods logits `combine_logits.py`. edit the `list_of_method_paths` variable
  in the script to specidy different methods directories.
  
+ 
+ C3D original pretrained model (Sports1M) can be downloaded from: https://github.com/DavideA/c3d-pytorch
+ 
+ P3D original pretrained model (Kinetics) can be downloaded from: https://github.com/naviocean/pseudo-3d-pytorch
+ 
 ## Evaluation
 To evaluate a method run
 ```
