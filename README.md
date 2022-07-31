@@ -33,9 +33,17 @@ If you find this dataset useful in your research, please cite our work:
       year={2020}
     }
 
-[WACV2021](): 
+[WACV2021](https://openaccess.thecvf.com/content/WACV2021/html/Ben-Shabat_The_IKEA_ASM_Dataset_Understanding_People_Assembling_Furniture_Through_Actions_WACV_2021_paper.html): 
 Will be available upon publication. 
 
+    @inproceedings{ben2021ikea,
+      title={The ikea asm dataset: Understanding people assembling furniture through actions, objects and pose},
+      author={Ben-Shabat, Yizhak and Yu, Xin and Saleh, Fatemeh and Campbell, Dylan and Rodriguez-Opazo, Cristian and Li, Hongdong and Gould, Stephen},
+      booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision},
+      pages={847--859},
+      year={2021}
+    }
+    
 ### Installation
 Please first download the dataset using the provided links: 
 [Full dataset download](https://drive.google.com/drive/folders/1xkDp--QuUVxgl4oJjhCDb2FWNZTkYANq?usp=sharing)
