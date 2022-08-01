@@ -1,6 +1,7 @@
 import argparse
 import tb_utils as utils
 import os
+import multiprocessing
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--dataset_path', type=str, default='/mnt/sitzikbs_storage/Datasets/ANU_ikea_dataset_processed',
