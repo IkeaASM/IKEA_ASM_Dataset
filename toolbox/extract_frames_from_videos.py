@@ -2,6 +2,7 @@ import argparse
 import tb_utils as utils
 import os
 import multiprocessing
+from joblib import Parallel, delayed
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--dataset_path', type=str, default='/mnt/sitzikbs_storage/Datasets/ANU_ikea_dataset_processed',
@@ -23,8 +24,8 @@ print('Individual frames dataset will be saved to ' + args.output_path)
 os.makedirs(args.output_path, exist_ok=True)
 for scan_list in [rgb_path_list, depth_path_list, normals_path_list]:
     num_cores = multiprocessing.cpu_count()
-    Parallel(n_jobs=num_cores)(delayed(utils.extract_frames(scan, args.dataset_path,
-                                                            args.output_path) for scan, _ in enumerate(scan_list)))
+    Parallel(n_jobs=num_cores)(delayed(utils.extract_frames)(scan, args.dataset_path,
+                                                            args.output_path) for _, scan in enumerate(scan_list))
     # # Non-parallel implementation
     # for scan in scan_list:
     #     utils.extract_frames(scan, args.dataset_path, args.output_path)
