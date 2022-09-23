@@ -31,6 +31,4 @@ Their fine-tuned RGB and Flow I3D models are available in the model directory (r
 
 This relied on having the optical flow and RGB frames extracted and saved as images on dist. [charades_dataset.py](charades_dataset.py) contains our code to load video segments for training.
 
-## Feature Extraction
-[extract_features.py](extract_features.py) contains the code to load a pre-trained I3D model and extract the features and save the features as numpy arrays. The [charades_dataset_full.py](charades_dataset_full.py) script loads an entire video to extract per-segment features.
  
