@@ -10,7 +10,7 @@ openpyxl==3.0.4
 cloudpickle==1.5.0
 numpy==1.18.5
 smplx==0.1.14
-joblib==0.16.0
+joblib==1.2.0
 numexpr==2.7.1
 Shapely==1.7.1
 tqdm==4.47.0
