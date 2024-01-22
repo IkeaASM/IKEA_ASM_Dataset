@@ -2,7 +2,6 @@
 
 This repo contains code for the "IKEA assembly dataset". This is a dev repo, after cleanup, it will be publicly available on Github. 
 
-[Link to raw dataset on cloudstor](https://cloudstor.aarnet.edu.au/plus/s/66mxSGe2f6ZsFut)  ~2TB
 
 [Link to google drive video dataset](https://drive.google.com/file/d/1X0So9X_LQZQcCGC5DagMp3S1qy3I_XXn/view?usp=sharing) ~240GB
 
