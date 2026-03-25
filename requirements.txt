@@ -1,7 +1,7 @@
 plyfile==0.7.2
 mock==4.0.2
 trimesh==3.8.4
-torch==1.6.0
+torch==2.8.0
 opencv_python==4.4.0.42
 pandas==1.0.5
 scipy==1.5.0
