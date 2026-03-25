@@ -13,7 +13,7 @@ smplx==0.1.14
 joblib==1.2.0
 numexpr==2.8.5
 Shapely==1.7.1
-tqdm==4.47.0
+tqdm==4.66.3
 psutil==5.7.0
 torchvision==0.7.0
 pyrender==0.1.43
