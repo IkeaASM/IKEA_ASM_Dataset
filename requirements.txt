@@ -27,7 +27,7 @@ fvcore==0.1.1.post20200716
 heatmap==2.2.1
 motmetrics==1.2.0
 moviepy==1.0.3
-onnx==1.21.0rc1
+onnx==1.21.0
 paf==0.2.1
 Pillow==12.1.1
 pycocotools==2.0.2
